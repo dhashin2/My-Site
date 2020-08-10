@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #eff0f4;
+
+}
+
+h1{
+  /*width: 10%;
+  margin: 0 auto 0 auto; */
+  margin: 0;
+  color: #006a71;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  bottom: -5px;
+}
+
+.top-container {
+  background-color: #b2ebf2;
+  position: relative;
+  padding-top: 100px;
+  margin: 0;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 130px;
+}
+
+.h1-div {
+  height: 100px;
+}
+
+.subheading {
+  font-family: 'Montserrat', sans-serif;
+  color: #24a19c;
+}
+
+p {
+  color: #1f4068;
+}
+
+h2 {
+  color: #264e86;
+}
+
+h3 {
+  color: #264e86;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D3D3D3;
+  border-width: 5px;
+  width: 6%; /* NOTE: bruh improtant */
+}
+
+.div-skills {
+  height: 20px;
+}
+
+.h1-body {
+  color: #264e86;
+}
