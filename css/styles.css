@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  background-color: #EBF0E5;
+  background-color: #F8F4F2;
 
 }
 
@@ -10,18 +10,22 @@ h1{
   /*width: 10%;
   margin: 0 auto 0 auto; */
   margin: 0;
-  color: #6A994E;
+  color: #097144;
 }
 
 .h1-main {
-    font-size: 4.85em; /* 485% // 1em = 16px// 16px = 100% */
-    color: #6A994E;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 5.50em; /* 485% // 1em = 16px// 16px = 100% */
+    color: #00664D;
+    font-family: 'Chelsea Market', cursive;
 }
 
 .subheading {
   font-family: 'Montserrat', sans-serif;
-  color: #0C975B;
+  color: #0C1D13;
+}
+
+.heading-subheading {
+  height: 40px;
 }
 
 .footer {
@@ -68,6 +72,7 @@ h1{
 
 p {
   color: #0C1D13;
+  font-size: 1.2em;
 }
 
 h2 {
