@@ -10,7 +10,18 @@ h1{
   /*width: 10%;
   margin: 0 auto 0 auto; */
   margin: 0;
-  color: #006a71;
+  color: #6A994E;
+}
+
+.h1-main {
+    font-size: 4.85em; /* 485% // 1em = 16px// 16px = 100% */
+    color: #245639;
+    font-family: 'Indie Flower', cursive;
+}
+
+.subheading {
+  font-family: 'Montserrat', sans-serif;
+  color: #6A994E;
 }
 
 .footer {
@@ -21,7 +32,7 @@ h1{
 }
 
 .top-container {
-  background-color: #b2ebf2;
+  background-color: #D2EED8;
   position: relative;
   padding-top: 100px;
   margin: 0;
@@ -47,29 +58,24 @@ h1{
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  top: 130px;
+  left: 200px;
+  top: 180px;
 }
 
 .h1-div {
   height: 100px;
 }
 
-.subheading {
-  font-family: 'Montserrat', sans-serif;
-  color: #24a19c;
-}
-
 p {
-  color: #1f4068;
+  color: #0C1D13;
 }
 
 h2 {
-  color: #264e86;
+  color: #6A994E;
 }
 
 h3 {
-  color: #264e86;
+  color: #6A994E;
 }
 
 hr {
@@ -85,5 +91,5 @@ hr {
 }
 
 .h1-body {
-  color: #264e86;
+  color: #2C6E49;
 }
