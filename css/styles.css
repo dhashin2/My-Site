@@ -3,10 +3,9 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   background-color: #F8F4F2;
-
 }
 
-h1{
+h1 {
   /*width: 10%;
   margin: 0 auto 0 auto; */
   margin: 0;
@@ -14,18 +13,17 @@ h1{
 }
 
 .h1-main {
-    font-size: 5.50em; /* 485% // 1em = 16px// 16px = 100% */
-    color: #00664D;
-    font-family: 'Chelsea Market', cursive;
+  font-size: 5.50rem;
+  /* 485% // 1em = 16px// 16px = 100% use rem for easy bug fixing least error prone */
+  color: #00664D;
+  font-family: 'Chelsea Market', cursive;
+  margin-bottom: 30px;
 }
 
 .subheading {
   font-family: 'Montserrat', sans-serif;
   color: #0C1D13;
-}
-
-.heading-subheading {
-  height: 40px;
+  font-weight: normal;
 }
 
 .footer {
@@ -40,14 +38,6 @@ h1{
   position: relative;
   padding-top: 100px;
   margin: 0;
-}
-
-.middle-container {
-
-}
-
-.bottom-container {
-
 }
 
 .span {
@@ -88,7 +78,8 @@ hr {
   border-top-style: dotted;
   border-color: #D3D3D3;
   border-width: 5px;
-  width: 6%; /* NOTE: bruh improtant */
+  width: 6%;
+  /* NOTE: bruh improtant */
 }
 
 .div-skills {
@@ -97,4 +88,74 @@ hr {
 
 .h1-body {
   color: #097144;
+}
+
+/* .skill-row {
+  width: 50%;
+  height: 110px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-img {
+  float: left;
+  margin-right: 30px;
+  height: 150px;
+  width: 150px;
+} */
+
+.skill-img {
+  width: 180px;
+}
+
+.delivery-desc {
+  /* clear: right; */
+  /* anti float */
+}
+
+.btn {
+  background: linear-gradient(to bottom, #6A994E 5%, #6A994E 100%);
+  background-color: #6A994E;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  padding: 4px 11px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #D3D3D3 5%, #D3D3D3 100%);
+  background-color: #D3D3D3;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottom-container {
+  margin-top: 10px;
+  margin: 0;
+  padding: 30px 0 20px;
+  background-color: #BBCEA1;
+}
+
+.social-media-links {
+  color: #097144;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.social-media-links:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 0.9em;
+  color: #ffffff;
 }
